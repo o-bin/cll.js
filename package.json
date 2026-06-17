@@ -1,0 +1,21 @@
+{
+  "name": "cll.js",
+  "version": "0.1.0",
+  "description": "Highly specialized graph-based engine",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "keywords": [
+    "animation",
+    "graph",
+    "engine"
+  ],
+  "author": "o-bin",
+  "license": "MIT"
+}
