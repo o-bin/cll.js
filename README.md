@@ -12,7 +12,7 @@ npm run dev
 
 and that's it! if you want to change the preview, just go to /src/scenes/main_scenes.js
 
-and then comment one of these lines!
+and then uncomment one of these lines!
 ```
 // export const ActiveScene = PencilDimensional;
 // export const ActiveScene = PencilScene;
