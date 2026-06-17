@@ -1,0 +1,47 @@
+:root {
+  --canvas-bg: #ffffff;
+  --ink-color: #000000;
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--canvas-bg);
+  color: var(--ink-color);
+  overflow: hidden; /* Prevent scrolling for full-screen app */
+  width: 100vw;
+  height: 100vh;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#main-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: crosshair; /* Specialized tool feel */
+}
+
+#ui-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Let clicks pass through to canvas by default */
+}
+
+/* Example UI element style (interactive) */
+.ui-element {
+  pointer-events: auto;
+}
