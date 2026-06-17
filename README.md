@@ -8,7 +8,6 @@ Try this library cloning this project and then type:
 npm install
 
 npm run dev
-
 ```
 
 and that's it! if you want to change the preview, just go to /src/scenes/main_scenes.js
